@@ -1,4 +1,4 @@
-# Appendix 2 - Goal Setting Example
+# Appendix One - Goal Setting Example
 
 ![Task Plan Diagram](/task-plan.svg)
 
