@@ -1,6 +1,6 @@
 # Appendix 2 - Goal Setting Example
 
-![Task Plan Diagram](/drafts/task-plan.svg)
+![Task Plan Diagram](/task-plan.svg)
 **Fig. 2.** This diagram shows the hierarchical decomposition of the "Develop Application" goal into a set of interdependent tasks.
 
 
