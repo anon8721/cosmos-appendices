@@ -1,6 +1,8 @@
-# Appendix One - Goal Setting Example
+# Appendix 2 - Goal Setting Example
 
-![Task Plan Diagram](/task-plan.svg)
+![Task Plan Diagram](/drafts/task-plan.svg)
+**Fig. 2.** This diagram shows the hierarchical decomposition of the "Develop Application" goal into a set of interdependent tasks.
+
 
 ## Theoretical Goal Management Process
 
@@ -32,7 +34,7 @@ Three types of dependencies are identified:
 - Cross-branch dependencies (e.g., T2.2 → T3.1): Dependencies between tasks in different subtasks
 - Cross-level dependencies (e.g., T1.3 → ST2): Where a specific task must be completed before an entire subtask can begin
 
-For each task, the system establishes both an Objective (what needs to be accomplished) and Conditions of Success (how to determine if the task has been successfully completed). These predefined success criteria enhance the system's capacity for self-assessment and enable internal feedback mechanisms.
+For each task, the system establishes both an Objective (what needs to be accomplished) and Success Criteria (how to determine if the task has been successfully completed). These predefined success criteria enhance the system's capacity for self-assessment and enable internal feedback mechanisms.
 
 ### Execution Planning
 
@@ -40,9 +42,15 @@ Based on the dependency analysis, the Executive Planner component creates an exe
 
 During execution, the system continuously monitors progress and dynamically adjusts the plan as conditions change. Should a task fail to meet its success criteria, the system implements an assessment mechanism to identify the causes of failure and adaptively modify subsequent approaches.
 
+### Execution Planning
+
+Based on the dependency analysis, the Architect component creates an execution sequence that respects all identified dependencies while optimizing for efficiency. This plan determines the order in which tasks will be attempted. The Architect then selects and assigns one task at a time to the Executive Planner.
+
+The Executive Planner receives only the current task and develops an Action Plan for its completion. After each task is attempted, the Architect monitors progress and dynamically adjusts the overall strategic plan as conditions change. Should a task fail to meet its success criteria, the Architect implements an assessment mechanism to identify the causes of failure and adaptively modifies subsequent approaches.
+
 ### Goal Completion and Renewal
 
-As each task is completed, the system marks it as such and moves on to the next according to the established dependencies. Upon successful completion of all constituent tasks, the main goal is considered achieved and is cleared from the active agenda.
+As each task is completed, the system marks it as such and moves on to the next according to the established dependencies. Upon successful completion of all tasks, the main goal is considered achieved and is cleared from the active agenda.
 
 The system then enters a goal renewal phase, requesting new directives from the user to maintain continuous goal-directed behavior while preserving human oversight of objective setting.
 
