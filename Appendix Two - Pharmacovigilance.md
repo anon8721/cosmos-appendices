@@ -1,4 +1,4 @@
-# Appendix 1 - Pharmacovigilance
+# Appendix 2 - Pharmacovigilance
 
 ## A theoretical COSMOS implementation
 
